@@ -15,26 +15,23 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       animation: {
-        'spin-slow': 'spin 7s linear infinite',
+        'spin-slow': 'spin 7s linear infinite ',
       },
 
       screens: {
-        'xs': { 'min': '480px', 'max': '599px' },
-        'sm': { 'min': '600px', 'max': '767px' },
-        'md': { 'min': '768px', 'max': '1023px' },
-        'lg': { 'min': '1024px', 'max': '1279px' },
-        'xl': { 'min': '1280px', 'max': '1535px' },
-        '2xl': { 'min': '1536px' },
+        'i5': { min: '320px', max: '427px' },
+        '12pro': { min: '428px', max: '728px' },
+        'ipad': { min: '729px', max: '990px' },
+        'ipadpro': { min: '991px', max: '1199px' },
+        'mcbook': { min: '1200px', max: '1400px' },
+        'dekstop': { min: '1401px', max: '1550px' },
+        'wscreen': '1551px'
       },
 
 
     },
   },
-  // variants: {
-  //   extend: {
-  //     display: ['sm'], // Enable 'screen-mob' variant for 'display' utilities
-  //   },
-  // },
+
   plugins: [],
 
 }

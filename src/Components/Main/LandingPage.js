@@ -14,9 +14,93 @@ const LandingPage = () => {
 
 
     return (
+        // <div className='w-full h-[200vh] flex flex-col justify-between items-center  '>
+
+        //     <div className='w-full h-[90vh]  bg-cover bg-center  bg-no-repeat flex justify-center'
+        //         style={{ backgroundImage: "url('Images/track-41.jpg')" }} >
+        //         <div className=' w-[90%] h-[50%]   mt-[27%] flex flex-col items-center justify-start	'>
+        //             <p className='text-white tracking-[0.2em] text-center text-base w-fit  h-fit '>PROFESSIONAL TRANSPORTATION SERVICE</p>
+        //             <span className=' text-5xl w-fit  h-fit flex flex-col justify-center items-center font-sans-serif font-bold	text-white	mt-[10%] leading-[1] ' 	 >
+        //                 <p className=' w-fit h-fit'>Team trucking</p>
+
+        //                 <p className='mt-[3%] w-fit h-fit'>& transport</p>
+
+
+        //             </span>
+        //             <p className='text-white text-lg font-medium text-center h-fit w-fit mt-[5%]'>Presentation</p>
+
+
+        //         </div>
+
+        //     </div>
+        //     {/* FORM (REQUEST A FORM) */}
+
+        //     <div className='  w-[90%] h-[100vh]  justify-between	shadow-lg  flex flex-col items-center	'>
+
+        //         {/* FORM HEADER */}
+
+        //         <div className='w-full h-[15%] bg-[#fde344] flex justify-center items-center'>
+        //             <span className='w-fit h-fit font-bold text-[27px] '>Request a quote</span>
+        //         </div>
+
+        //         {/* FORM BODY */}
+
+        //         <div className='w-[80%] h-[80%]    '>
+        //             <form className="w-full h-full  flex flex-col items-center justify-between">
+        //                 <div className="  border-b border-gray-300  w-full h-[10%] flex items-end ">
+        //                     <input className="appearance-none bg-transparent border-none w-[100%]  h-[60%]   pb-3 leading-tight focus:outline-none" type="text" placeholder="Origin ZIP" aria-label="Full name" />
+        //                 </div>
+
+        //                 <div className="  border-b border-gray-300  w-full h-[10%] flex items-end ">
+        //                     <input className="appearance-none bg-transparent border-none w-[100%]  h-[60%]  pb-3 leading-tight focus:outline-none" type="text" placeholder="Destination ZIP" aria-label="Full name" />
+        //                 </div>
+
+        //                 <div className="  border-b border-gray-300  w-full h-[10%] flex items-end">
+        //                     <select className=" w-full pb-3 pt-2  bg-white text-[#81899c]  focus:outline-none" type="text" placeholder="Class" >
+
+        //                         <option className='text-black'>Class</option>
+        //                         <option className='text-black'>50</option>
+        //                         <option className='text-black'>55</option>
+        //                         <option className='text-black'>60</option>
+        //                         <option className='text-black'>65</option>
+        //                         <option className='text-black'>70</option>
+
+        //                     </select>
+
+
+        //                 </div>
+
+
+        //                 <div className="  border-b border-gray-300  w-full h-[10%] flex items-end ">
+        //                     <input className="appearance-none bg-transparent border-none w-[100%]  h-[60%]   pb-3 leading-tight focus:outline-none" type="text" placeholder="Weight" aria-label="Full name" />
+        //                 </div>
+
+        //                 <div className="  border-b border-gray-300  w-full h-[20%] flex items-start ">
+        //                     <input className="appearance-none bg-transparent border-none w-[100%]  h-[100%]  pb-3 leading-tight focus:outline-none" type="text" placeholder="Description" aria-label="Full name" />
+        //                 </div>
+
+        //                 <div className="w-full h-[13%] bg-[#0E1C3C]  text-white text-xs font-semibold 	flex justify-center items-center hover:scale-95 transform transition-all duration-200">
+        //                     <button className="tracking-widest flex  hover:flex-row-reverse  h-fit w-fit  items-center">
+        //                         <span className='h-fit w-fit'>REQUEST A QUOTE</span>
+        //                         <span className="ml-2 mr-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-4 h-4 ">
+        //                             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+        //                         </svg>
+        //                         </span>
+        //                     </button>
+
+        //                 </div>
+
+
+        //             </form>
+        //         </div>
+
+        //     </div>
+
+        // </div>
+
         <div className='w-full h-screen  bg-cover bg-center flex bg-no-repeat'
             style={{ backgroundImage: "url('Images/track-41.jpg')" }} >
-            <div className=' w-4/12 h-2/3 ml-[198px] mt-56 flex flex-col	'>
+            <div className=' w-4/12 h-[2/3] ml-[198px]  mt-56 flex flex-col	'>
                 <p className='text-white tracking-[0.2em] mt-8 text-base '>PROFESSIONAL TRANSPORTATION SERVICE</p>
                 <span className=' text-[113px] font-sans-serif font-bold	text-white	mt-8 leading-[1.01] ' 	 >
                     <p className=''>Team</p>

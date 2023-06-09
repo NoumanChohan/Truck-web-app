@@ -14,7 +14,6 @@ import Footer from "./Footer"
 import Elevate from "./Elevate"
 import LandingPage from "./LandingPage"
 import NavBar from "./NavBar"
-import Extra from "./Extra"
 
 
 const Main = () => {
@@ -26,7 +25,7 @@ const Main = () => {
 
     return (
         <div className='overflow-x-hidden'>
-            <NavBar />
+            {/* <NavBar /> */}
             {/* 1st page */}
             <LandingPage />
             {/* SECOND PAGE OF LANDING (About Us) */}
@@ -50,7 +49,7 @@ const Main = () => {
             {/* Footer */}
             <Footer />
 
-            <Extra />
+
 
 
 

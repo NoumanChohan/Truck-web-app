@@ -1,8 +1,12 @@
 "use client"
 import Link from 'next/link';
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState, } from 'react';
+import NavDrawer from './NavDrawer';
 
-const Navbar = () => {
+const Nav = () => {
+
+
+
     const [scrollBackground, setScrollBackground] = useState(false);
     const [navbarHeight, setNavbarHeight] = useState('15vh');
 
@@ -10,7 +14,7 @@ const Navbar = () => {
         const handleScroll = () => {
             if (window.scrollY > 0) {
                 setScrollBackground(true);
-                setNavbarHeight('8vh');
+                setNavbarHeight('10vh');
             } else {
                 setScrollBackground(false);
                 setNavbarHeight('15vh');
@@ -39,18 +43,24 @@ const Navbar = () => {
 
     return (
         <nav
-            className="fixed top-0 left-0 w-screen flex justify-between items-center z-10"
+            className="fixed top-0 left-0 w-screen flex justify-between items-center z-10 "
             style={{
                 height: navbarHeight,
                 backgroundColor: scrollBackground ? 'black' : 'transparent',
                 transition: 'height 0.5s, background-color 0.5s',
             }}
         >
-            <div className="w-[10%] h-full ml-[80px] flex items-center">
-                <img src="/Images/footer-logo.png" className="w-[80%]" />
+            {/* logo text section */}
+
+            <div className="w-[25%] h-full   ml-[25px] flex items-center text-lg i5:w-[40%] 12pro:w-[35%] ipad:text-2xl ipadpro:text-2xl mcbook:w-[10%] mcbook:ml-[40px] dekstop:w-[10%] dekstop:ml-[80px] wscreen:w-[10%] wscreen:ml-[80px]">
+                <p className="w-fit h-fit   text-yellow-300 font-bold  dekstop:w-[80%] ">TRACK/</p><p className='text-white w-fit h-fit'>/TRUCK</p>
             </div>
-            <div className="w-[45%] flex h-full items-center justify-between ">
-                <ul className="w-[75%] flex justify-between text-xs tracking-widest text-white font-sans-serif text-center">
+
+
+
+            {/* middle section for dekstop */}
+            <div className="w-[45%]  flex h-full items-center justify-evenly i5:hidden 12pro:hidden ipad:hidden ipadpro:hidden mcbook:w-[60%] dekstop:w-[60%] wscreen:w-[50%]">
+                <ul className="w-[75%]  flex justify-between text-xs tracking-widest text-white font-sans-serif text-center mcbook:w-[60%] dekstop:w-[60%] wscreen:w-[60%]">
                     <li className="w-[17%]">HOME</li>
 
                     <li className="w-[17%]">
@@ -91,20 +101,28 @@ const Navbar = () => {
                     <li className="w-[17%]">BLOG</li>
                     <Link href="/contact"><li className="w-[17%]"> CONTACTS</li></Link>
                 </ul>
-                <button className="w-[19%] outline text-white outline-[#FDE344] outline-[1px] h-[50%]">
+                <button className="w-[23%]  outline text-white outline-[#FDE344] outline-[1px] h-[40%] ">
                     QUOTE ON LANE
                 </button>
             </div>
-            <div className="w-[15%] h-16 mr-[80px] flex justify-between items-center">
-                <img src="/Icons/phone.png" className="w-[25%] h-[60px]" />
-                <button className="w-[75%] h-fit flex justify-center items-center">
-                    <p className="tracking-widest text-2xl h-fit w-full text-white">
+
+
+
+            {/* phone section */}
+
+            <div className="w-[15%] h-16 mr-[80px]  flex justify-between items-center i5:hidden 12pro:hidden ipad:hidden ipadpro:w-[27%] ipadpro:ml-[37%] ipadpro:mr-0 mcbook:w-[20%] mcbook:mr-[40px] dekstop:w-[18%] dekstop:mr-[80px] wscreen:w-[17%] wscreen:mr-[80px]">
+                <img src="/Icons/phone.png" className="w-[25%]  h-[60px] ipadpro:w-[23%] dekstop:w-[23%] " />
+                <button className="w-[75%] h-fit flex justify-center items-center ipadpro:w-[77%]">
+                    <p className="tracking-widest text-2xl h-fit w-full text-yellow-300">
                         09007860111
                     </p>
                 </button>
             </div>
+            {/* drawer for short screen */}
+            <NavDrawer />
+
         </nav>
     );
 };
 
-export default Navbar;
+export default Nav;
