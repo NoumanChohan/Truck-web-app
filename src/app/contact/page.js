@@ -1,5 +1,4 @@
-import Nav from '@/src/Components/Contact/Nav/Nav'
-import LandingPage from '@/src/Components/Main/LandingPage'
+
 import React from 'react'
 
 const contact = () => {
