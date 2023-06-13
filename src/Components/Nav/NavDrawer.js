@@ -14,7 +14,7 @@ const NavDrawer = () => {
     };
 
     return (
-        <div className="w-[5%]  h-full items-center mr-[25px] flex  i5:mr-[15px]   12pro:mr-[15px]  ipadpro:ml-auto dekstop:hidden mcbook:hidden  wscreen:hidden">
+        <div className="w-[5%]  h-fit items-center mr-[7%] flex ] md:mr-[4%] lg:hidden">
             {/* Menu icon */}
             <div className="w-[100%] h-fit flex">
                 <img

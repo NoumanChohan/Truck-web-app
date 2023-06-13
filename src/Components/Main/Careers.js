@@ -7,8 +7,7 @@ const Careers = () => {
                 <div className="flex flex-col h-[20%]   w-full ">
 
                     <p className="tracking-[.2em] w-fit h-fit   text-base text-[#81899c]">CAREERS</p>
-                    <span className="text-[64px]  w-[40%] font-sans-serif h-[150px]  tracking-normal 	text-[#0E1C3C] leading-[1] font-semibold	mt-5">The best place to
-                        work, period</span>
+                    <span className="text-[64px]  w-[40%]  font-sans-serif h-[150px] tracking-normal 	text-[#0E1C3C] leading-[1] font-semibold	mt-5">Join Track-Truck Team</span>
                 </div>
 
 
@@ -36,14 +35,14 @@ const Careers = () => {
                             <div className='h-full w-[65%] ml-4  flex flex-col '>
 
                                 <button className="tracking-normal flex  w-[350px] h-14 mt-16 ">
-                                    <span className="text-2xl leading-[1.2em] text-black  font-bold">Administrative Non-Driver</span>
+                                    <span className="text-2xl leading-[1.2em] text-black  font-bold">Dispatch Coordinator</span>
                                     <span className="ml-1 mr-1 mt-1 text-black"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-5 h-5">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
                                     </span>
                                 </button>
 
-                                <p className='text-[#81899c] text-base font-normal tracking-tight  w-full leading-[1.8em] '>As one of the top companies in the trucking industry, we always need support.</p>
+                                <p className='text-[#81899c] text-base font-normal tracking-tight  w-full leading-[1.8em] '>Ensure smooth coordination of shipments, optimize routes, and maximize truck capacity utilization.</p>
                                 <button className='text-xs font-bold leading-[2em] tracking-[0.2em] mt-4 w-fit'>FIND JOBS</button>
 
 
@@ -65,14 +64,14 @@ const Careers = () => {
                             <div className='h-full w-[65%] ml-4  flex flex-col '>
 
                                 <button className="tracking-normal flex   w-[350px] h-14 mt-16 ">
-                                    <span className="text-2xl leading-[1.2em] text-black  font-bold">Company Driver</span>
+                                    <span className="text-2xl leading-[1.2em] text-black  font-bold">Fleet Manager</span>
                                     <span className="ml-1 mr-1 mt-1 text-black"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-5 h-5">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
                                     </span>
                                 </button>
 
-                                <p className='text-[#81899c] text-base font-normal tracking-tight  w-full leading-[1.8em] '>Come join one of the top trucking companies in the industry and earn a competitive income.</p>
+                                <p className='text-[#81899c] text-base font-normal tracking-tight  w-full leading-[1.8em] '>Oversee fleet operations, maintenance, and compliance. Utilize our fleet management system for efficiency.</p>
                                 <button className='text-xs font-bold leading-[2em] tracking-[0.2em] mt-4 w-fit'>FIND JOBS</button>
 
 
@@ -114,14 +113,14 @@ const Careers = () => {
                             <div className='h-full w-[65%] ml-4  flex flex-col '>
 
                                 <button className="tracking-normal flex  w-[350px] h-14 mt-[80px] ">
-                                    <span className="text-2xl leading-[1.2em] text-black  font-bold">Maintenance technician</span>
+                                    <span className="text-2xl leading-[1.2em] text-black  font-bold">Service Representative</span>
                                     <span className="ml-1 mr-1 mt-1 text-black"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-5 h-5">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
                                     </span>
                                 </button>
 
-                                <p className='text-[#81899c] text-base font-normal tracking-tight  w-full leading-[1.8em] '>Enjoy an environment of various trucking and continous problem solving.</p>
+                                <p className='text-[#81899c] text-base font-normal tracking-tight  w-full leading-[1.8em] '>Optimize supply chain operations through data analysis & process improvement. Work closely with dispatching & routing teams. </p>
                                 <button className='text-xs font-bold leading-[2em] tracking-[0.2em] mt-4 w-fit'>FIND JOBS</button>
 
 
@@ -143,14 +142,14 @@ const Careers = () => {
                             <div className='h-full w-[65%] ml-4 flex flex-col '>
 
                                 <button className="tracking-normal flex   w-[350px] h-14 mt-[80px] ">
-                                    <span className="text-2xl leading-[1.2em] text-black  font-bold">Owner Operator</span>
+                                    <span className="text-2xl leading-[1.2em] text-black  font-bold">Logistics Analyst</span>
                                     <span className="ml-1 mr-1 mt-1 text-black"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-5 h-5">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
                                     </span>
                                 </button>
 
-                                <p className='text-[#81899c] text-base font-normal tracking-normal  w-full leading-[1.8em] '>Become an independent contractor and enjoy working with one of top companies in the industry.</p>
+                                <p className='text-[#81899c] text-base font-normal tracking-normal  w-full leading-[1.8em] '>Provide exceptional customer service, handle inquiries, and assist with load matching and administrative tasks.</p>
                                 <button className='text-xs font-bold leading-[2em] tracking-[0.2em] mt-4 w-fit'>FIND JOBS</button>
 
 

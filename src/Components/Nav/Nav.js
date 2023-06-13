@@ -52,15 +52,17 @@ const Nav = () => {
         >
             {/* logo text section */}
 
-            <div className="w-[25%] h-full   ml-[25px] flex items-center text-lg i5:w-[40%] 12pro:w-[35%] ipad:text-2xl ipadpro:text-2xl mcbook:w-[10%] mcbook:ml-[40px] dekstop:w-[10%] dekstop:ml-[80px] wscreen:w-[10%] wscreen:ml-[80px]">
-                <p className="w-fit h-fit   text-yellow-300 font-bold  dekstop:w-[80%] ">TRACK/</p><p className='text-white w-fit h-fit'>/TRUCK</p>
+
+
+            <div className="w-fit h-full   ml-[5%] flex items-center text-base  md:text-2xl md:w-[25%] lg:text-lg lg:w-fit xl:w-fit ">
+                <p className="w-fit h-fit    text-yellow-300 font-bold  md:w-fit  ">TRACK/</p><p className='text-white w-[50%] h-fit md:w-fit '>/TRUCK</p>
             </div>
 
 
 
             {/* middle section for dekstop */}
-            <div className="w-[45%]  flex h-full items-center justify-evenly i5:hidden 12pro:hidden ipad:hidden ipadpro:hidden mcbook:w-[60%] dekstop:w-[60%] wscreen:w-[50%]">
-                <ul className="w-[75%]  flex justify-between text-xs tracking-widest text-white font-sans-serif text-center mcbook:w-[60%] dekstop:w-[60%] wscreen:w-[60%]">
+            <div className="w-[60%]  flex h-full items-center justify-between base:hidden sm:hidden md:hidden lg:flex lg:mr-[6%] xl:w-[50%] xl:ml-[6%] 2xl:w-[60%]">
+                <ul className="w-[75%]  flex justify-between text-xs tracking-widest text-white font-sans-serif text-center ">
                     <li className="w-[17%]">HOME</li>
 
                     <li className="w-[17%]">
@@ -101,18 +103,20 @@ const Nav = () => {
                     <li className="w-[17%]">BLOG</li>
                     <Link href="/contact"><li className="w-[17%]"> CONTACTS</li></Link>
                 </ul>
-                <button className="w-[23%]  outline text-white outline-[#FDE344] outline-[1px] h-[40%] ">
+                <button className="w-[20%]  outline text-white outline-[#FDE344] outline-[1px] h-[40%] text-xs ">
                     QUOTE ON LANE
                 </button>
             </div>
 
 
 
+
+
             {/* phone section */}
 
-            <div className="w-[15%] h-16 mr-[80px]  flex justify-between items-center i5:hidden 12pro:hidden ipad:hidden ipadpro:w-[27%] ipadpro:ml-[37%] ipadpro:mr-0 mcbook:w-[20%] mcbook:mr-[40px] dekstop:w-[18%] dekstop:mr-[80px] wscreen:w-[17%] wscreen:mr-[80px]">
-                <img src="/Icons/phone.png" className="w-[25%]  h-[60px] ipadpro:w-[23%] dekstop:w-[23%] " />
-                <button className="w-[75%] h-fit flex justify-center items-center ipadpro:w-[77%]">
+            <div className="w-[20%] h-16 mr-[5%]  flex justify-between items-center base:hidden sm:hidden md:hidden xl:flex 2xl:w-[17%]">
+                <img src="/Icons/phone.png" className="w-[25%]  h-[60px]  " />
+                <button className="w-[75%] h-fit flex justify-center items-center">
                     <p className="tracking-widest text-2xl h-fit w-full text-yellow-300">
                         09007860111
                     </p>

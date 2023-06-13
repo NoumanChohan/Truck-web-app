@@ -81,7 +81,7 @@ const Elevate = () => {
 
             {/* bg image page */}
             <div className="w-full  h-[70%] bg-no-repeat bg-center bg-cover flex items-center	 "
-                style={{ backgroundImage: "url('Images/blue-truck.jpg')" }}>
+                style={{ backgroundImage: "url('Images/elevate-bg.png')" }}>
 
                 <div className="flex  h-36 w-[45%] ml-[100px] mt-44">
                     <span className="w-[13%] h-full   "></span>

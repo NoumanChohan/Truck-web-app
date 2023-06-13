@@ -19,7 +19,7 @@ const AmazonCap = () => {
             <div className='h-[15%] w-full '></div>
 
             {/* bg 2nd div */}
-            <div className='h-[70%] w-full  bg-cover bg-center	 ' style={{ backgroundImage: "url('/Images/Amazonpage.jpg')" }}></div>
+            <div className='h-[70%] w-full  bg-cover bg-center	 ' style={{ backgroundImage: "url('/Images/amazon-bg.png')" }}></div>
 
 
 

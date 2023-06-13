@@ -26,27 +26,16 @@ const Main = () => {
     return (
         <div className='overflow-x-hidden'>
             {/* <NavBar /> */}
-            {/* 1st page */}
             <LandingPage />
-            {/* SECOND PAGE OF LANDING (About Us) */}
             <AboutUs />
-            {/* 3RD PAGE  Elevate your dry van shipping  */}
             <Elevate />
-            {/* 4th page TESTIMONIALS */}
             <Testimonials />
-            {/* 5th PAGE INDUSTRY */}
             <Industry />
-            {/* 6th PAGE - OUR BLOG */}
             <Blog />
-            {/* 7th PAGE - Respected clientG */}
             <RespectedClients />
-            {/* 8th page Amazon */}
             <AmazonCap />
-            {/* 9th pagen CAREERS */}
             <Careers />
-            {/* 10th pagen Choose Us */}
             <ChooseUs />
-            {/* Footer */}
             <Footer />
 
 

@@ -1,12 +1,10 @@
 
+import ContactMain from '@/src/Components/Contact/ContactMain'
 import React from 'react'
 
 const contact = () => {
     return (
-        <div className=' h-[200vh] bg-pink-400 overflow-x-hidden'>
-            {/* <Nav /> */}
-
-        </div>
+        <ContactMain />
     )
 }
 

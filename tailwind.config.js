@@ -19,13 +19,8 @@ module.exports = {
       },
 
       screens: {
-        'i5': { min: '320px', max: '427px' },
-        '12pro': { min: '428px', max: '728px' },
-        'ipad': { min: '729px', max: '990px' },
-        'ipadpro': { min: '991px', max: '1199px' },
-        'mcbook': { min: '1200px', max: '1400px' },
-        'dekstop': { min: '1401px', max: '1550px' },
-        'wscreen': '1551px'
+        'base': { min: '1px', max: '639px' },
+
       },
 
 

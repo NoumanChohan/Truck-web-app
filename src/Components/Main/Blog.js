@@ -19,8 +19,7 @@ const Blog = () => {
                 <div className="flex flex-col h-fit  w-[30%] ">
 
                     <p className="tracking-[.2em] w-full h-fit  text-base text-[#81899c]">OUR BLOGS</p>
-                    <span className="text-[64px]  w-full  h-fit  tracking-tight	text-[#0E1C3C] leading-[1] font-semibold	mt-5">Recent news
-                        & events</span>
+                    <span className="text-[64px]  w-full  h-fit  tracking-tight	text-[#0E1C3C] leading-[1.03] font-semibold 	mt-5">Choose Track-Truck for Success</span>
                 </div>
 
 
@@ -69,7 +68,7 @@ const Blog = () => {
                     modules={[Navigation]}
                 >
                     <SwiperSlide className=" "><div className="w-[100%] h-[85%]  flex flex-col">
-                        <div className="w-full bg-[#F8F8F8] h-[68%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/card-1.jpg)' }}></div>
+                        <div className="w-full bg-[#F8F8F8] h-[68%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/blog-1.png)' }}></div>
                         <span className='font-bold text-2xl text-black mt-5'>Recovery underway, logistics costs pressured</span>
                         <p className='text-base mt-5 w-[90%] leading-[1.8] tracking-tight font-[400] '>After some quality time in Florida. I am back to looking at where the economy is headed. After some</p>
                         <span className='text-base mt-10'>Read Now</span>
@@ -77,7 +76,7 @@ const Blog = () => {
                     </SwiperSlide>
 
                     <SwiperSlide className=" "><div className="w-[100%] h-[99%]   flex flex-col">
-                        <div className="w-full bg-[#F8F8F8] h-[78%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/card-2.jpg)' }}></div>
+                        <div className="w-full bg-[#F8F8F8] h-[78%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/blog-2.png)' }}></div>
                         <span className='font-bold text-2xl text-black mt-5'>Hitting the pause button</span>
                         <p className='text-base mt-5 w-[90%]leading-[1.8] tracking-tight font-[400] '>After some quality time in Florida. I am back to looking at where the economy is headed. After some</p>
                         <span className='text-base mt-10'>Read Now</span>
@@ -85,7 +84,7 @@ const Blog = () => {
                     </SwiperSlide>
 
                     <SwiperSlide className=" "><div className="w-[100%] h-[85%]   flex flex-col">
-                        <div className="w-full bg-[#F8F8F8] h-[62.5%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/card-3.jpg)' }}> </div>
+                        <div className="w-full bg-[#F8F8F8] h-[62.5%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/blog-3.png)' }}> </div>
                         <span className='font-bold text-2xl text-black mt-5'>Looking back and moving forward</span>
                         <p className='text-base mt-5 w-[90%] leading-[1.8] tracking-tight font-[400] '>After some quality time in Florida. I am back to looking at where the economy is headed. After some</p>
                         <span className='text-base mt-10'>Read Now</span>
@@ -93,7 +92,7 @@ const Blog = () => {
                     </SwiperSlide>
 
                     <SwiperSlide className=" "><div className="w-[100%] h-[99%]  flex flex-col">
-                        <div className="w-full bg-[#F8F8F8] h-[78%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/card-4.jpg)' }}></div>
+                        <div className="w-full bg-[#F8F8F8] h-[78%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/blog-4.png)' }}></div>
                         <span className='font-bold text-2xl text-black mt-5'>Hitting the pause button</span>
                         <p className='text-base mt-5 w-[90%] leading-[1.8] tracking-tight font-[400] '>After some quality time in Florida. I am back to looking at where the economy is headed. After some</p>
                         <span className='text-base mt-10'>Read Now</span>
@@ -101,7 +100,7 @@ const Blog = () => {
                     </SwiperSlide>
 
                     <SwiperSlide className=" "><div className="w-[100%] h-[85%]  flex flex-col">
-                        <div className="w-full bg-[#F8F8F8] h-[68%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/card-5.jpg)' }}></div>
+                        <div className="w-full bg-[#F8F8F8] h-[68%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/blog-5.png)' }}></div>
                         <span className='font-bold text-2xl text-black mt-5'>Recovery underway, logistics costs pressured</span>
                         <p className='text-base mt-5 w-[90%] leading-[1.8] tracking-tight font-[400]'>After some quality time in Florida. I am back to looking at where the economy is headed. After some</p>
                         <span className='text-base mt-10'>Read Now</span>
@@ -109,7 +108,7 @@ const Blog = () => {
                     </SwiperSlide>
 
                     <SwiperSlide className=" "><div className="w-[100%] h-[99%]   flex flex-col">
-                        <div className="w-full bg-[#F8F8F8] h-[78%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/card-6.jpg)' }}></div>
+                        <div className="w-full bg-[#F8F8F8] h-[78%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/blog-6.png)' }}></div>
                         <span className='font-bold text-2xl text-black mt-5'>Hitting the pause button</span>
                         <p className='text-base mt-5 w-[90%] leading-[1.8] tracking-tight font-[400] '>After some quality time in Florida. I am back to looking at where the economy is headed. After some</p>
                         <span className='text-base mt-10'>Read Now</span>
