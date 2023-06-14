@@ -3,7 +3,7 @@ import React from 'react'
 const ContactFooter = () => {
     return (
         // main div 
-        <div className='w-full h-[250vh]  flex flex-col'>
+        <div className='w-full h-[250vh] bg-[#F8F8F8]  xs:h-[160vh] sm:h-[160vh]  flex flex-col'>
 
             {/* space div  */}
             <div className='w-full h-[5%]  '></div>
@@ -28,20 +28,20 @@ const ContactFooter = () => {
                     <div className='h-fit w-[80%]  flex  mt-[10%] ml-[10%] '>
 
                         <input className='bg-[#FDE344] w-[100%] h-[60px] placeholder-black focus:outline-none  border-b border-black ' type='email' placeholder='Email address' />
-                        <button className='h-fit w-[15%]  flex items-center absolute ml-[60%] mt-[2%]'><img className='h-full w-full  ' src='/Icons/black-arrow-right.png'></img></button>
+                        <button className='h-fit w-[15%] sm:w-[5%] bg-green-300 flex items-center absolute ml-[60%] sm:ml-[67%] mt-[2%] sm:mt-[3%]'><img className='h-full w-full  ' src='/Icons/black-arrow-right.png'></img></button>
                     </div>
                 </div>
 
 
 
 
-                <div className='h-fit w-fit mt-[30%] mr-auto ml-[5%]   flex justify-center  items-center'><img src='/Images/footer-logo.png' className=' h-full w-full' /></div>
+                <div className='h-fit w-fit mt-[30%] sm:mt-[20%] mr-auto ml-[5%]   flex justify-center  items-center'><img src='/Images/footer-logo.png' className=' h-full w-full' /></div>
 
 
-                <div className='h-[47%] w-[90%]  mt-[30%] ml-[5%] mr-auto  flex flex-col justify-between'>
+                <div className='h-[47%] w-[90%]  mt-[30%] sm:mt-[20%] flex flex-col justify-between items-center'>
                     <div className='w-full h-fit  text-white text-3xl font-sans-serif font-bold leading-none'>End-to-end transportation and custom logistics solutions</div>
 
-                    <div className='w-[90%] h-[70%] flex flex-col justify-evenly ml-[5%] mr-auto'>
+                    <div className='w-[90%] h-[70%] flex flex-col justify-evenly  '>
 
                         <div className='h-fit w-fit  flex flex-col'>
                             <span className='font-bold text-lg text-white '>Contact us</span>
@@ -91,7 +91,9 @@ const ContactFooter = () => {
 
 
 
-            <div className='w-full h-[11%] tracking-[.17em] bg-pink-300  text-xs text-[#81899c] font-sans-serif flex items-center justify-center '>© 2021 TRACK TRUCK CO, ALL RIGHTS RESERVED</div>
+            <div className='w-full h-[11%] tracking-[.17em] bg-pink-300  text-xs  xs:text-sm sm:text-base md:text-lg text-[#81899c] font-sans-serif flex justify-center items-center text-center  '>
+                <p className='h-fit w-fit bg-yellow-200'>© 2021 TRACK TRUCK CO, ALL RIGHTS RESERVED</p>
+            </div>
 
         </div>
 

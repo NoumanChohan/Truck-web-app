@@ -20,6 +20,8 @@ module.exports = {
 
       screens: {
         'base': { min: '1px', max: '639px' },
+        'xxs': { min: '320px', max: '399px' },
+        'xs': { min: '400px', max: '639px' }
 
       },
 
