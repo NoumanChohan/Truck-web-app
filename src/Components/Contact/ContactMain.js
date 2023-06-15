@@ -10,7 +10,7 @@ const ContactMain = () => {
             <Landing />
             <Cards />
             <Form />
-            {/* <ContactFooter /> */}
+            <ContactFooter />
         </div>
     )
 }

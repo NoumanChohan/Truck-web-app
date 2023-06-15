@@ -32,7 +32,7 @@ const Cards = () => {
 
             <div className='w-full h-[70vh] bg-[#F8F8F8]  flex flex-col  justify-evenly items-center xxs:hidden xs:hidden sm:hidden md:hidden lg:flex xl:hidden '>
 
-                <div className='w-[90%] h-[45%] bg-pink-300 flex justify-between items-center '>
+                <div className='w-[90%] h-[45%] flex justify-between items-center '>
 
                     <div className='w-[45%]  h-full bg-[#FDE344] shadow-lg flex flex-col justify-center pl-5'>
                         <img className='h-[60px] w-[60px] ' src='/Icons/cellphone.png' />
