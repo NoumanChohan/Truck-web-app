@@ -3,14 +3,14 @@ import React from 'react'
 const Elevate = () => {
     return (
 
-        <div className="w-screen bg-[#F8F8F8] h-[120vh] xs:h-[80vh] lg:h-[90vh] flex flex-col justify-between ">
+        <div className="w-screen bg-[#F8F8F8] h-[120vh] xs:h-[80vh] md:h-[70vh] lg:h-[90vh] flex flex-col justify-between ">
 
 
             <div className="w-full  h-[40%]  bg-blue-300 sm:h-[20%]">
 
                 {/* absolute page */}
 
-                <div className="h-[50%] xs:h-[35%] mt-[20%] xs:mt-0 sm:h-[20%] md:h-[25%] xl:h-[30%] 2xl:h-[32%] w-[100%]  md:w-[90%] xl:w-[80%] 2xl:w-[70%]  bg-[#F8F8F8] absolute  flex flex-col sm:flex-row">
+                <div className="h-[50%] xs:h-[35%] mt-[20%] xs:mt-0 sm:h-[20%] md:h-[25%] md:mt-0 xl:h-[30%] 2xl:h-[32%] w-[100%]  md:w-[100%] xl:w-[80%] 2xl:w-[70%]  bg-[#F8F8F8] absolute  flex flex-col sm:flex-row">
 
 
                     <div className='h-[50%] sm:h-[100%] w-full flex '>

@@ -18,11 +18,11 @@ const LandingPage = () => {
         <>
             <div className='w-full h-[210vh] xs:h-[180vh]  md:h-[190vh]  flex flex-col justify-between items-center lg:hidden '>
 
-                <div className='w-full h-[100vh] xs:h-[45%] bg-cover bg-center  bg-no-repeat flex justify-center'
+                <div className='w-full h-[100vh] xs:h-[45%] md:h-[90vh] bg-cover bg-center  bg-no-repeat flex justify-center'
                     style={{ backgroundImage: "url('Images/track-41.jpg')" }} >
                     <div className=' w-[90%] h-[50%]   mt-[50%] sm:mt-[35%] sm:w-[70%] md:w-[60%] md:mt-[30%] flex flex-col items-center justify-start	'>
                         <p className='text-white tracking-[0.2em] text-center text-base w-fit  h-fit '>PROFESSIONAL TRANSPORTATION SERVICE</p>
-                        <span className=' text-5xl sm:text-6xl md:text-7xl w-fit  h-fit flex flex-col justify-center items-center font-sans-serif font-bold	text-white	mt-[10%] leading-[1] xs:leading-normal ' 	 >
+                        <span className=' text-5xl sm:text-6xl md:text-7xl w-fit  h-fit flex flex-col justify-center items-center font-sans-serif font-bold	text-white	mt-[10%] i5:leading-[1] leading-normal xs:leading-normal md:leading-normal ' 	 >
                             <p className=' w-fit h-fit'>Team </p>
                             <p className='w-fit h-fit'>trucking &</p>
 
@@ -38,7 +38,7 @@ const LandingPage = () => {
                 </div>
                 {/* FORM (REQUEST A FORM) */}
 
-                <div className='  w-[90%] sm:w-[80%]  md:w-[90%] h-[110vh] xs:h-[50%] md:h-[90vh]  	shadow-lg  flex flex-col justify-evenly xs:justify-between items-center	'>
+                <div className='  w-[90%] sm:w-[80%]  md:w-[90%] h-[110vh] xs:h-[50%] md:h-[95vh]  	shadow-lg  flex flex-col justify-evenly xs:justify-between items-center	'>
 
                     {/* FORM HEADER */}
 

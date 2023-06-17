@@ -2,8 +2,8 @@ import React from 'react'
 
 const Careers = () => {
     return (
-        <div className='w-full h-[300vh] i5:h-[370vh] bg-[#d01d1d] xs:h-[250vh] flex flex-col justify-between items-center'>
-            <div className=' h-[7%] xs:h-[5%] w-[90%] mt-[20%] bg-green-300 flex flex-col justify-between  '>
+        <div className='w-full h-[300vh] i5:h-[370vh] md:h-[200vh] bg-[#d01d1d] xs:h-[250vh] flex flex-col justify-between items-center'>
+            <div className=' h-[7%] xs:h-[5%] w-[90%] mt-[20%] md:mt-[15%] bg-green-300 flex flex-col justify-between  '>
 
 
                 <p className="tracking-[.2em] w-fit h-fit   text-base text-[#81899c]">CAREERS</p>
@@ -16,7 +16,7 @@ const Careers = () => {
             {/* 4  Card SECTIONS */}
 
 
-            <div className='w-full h-[90%] bg-pink-400  mt-[10%] flex flex-col justify-around i5:justify-between '>
+            <div className='w-full h-[90%] bg-pink-400  mt-[10%] flex flex-col  justify-around md:items-center i5:justify-between '>
 
 
 
@@ -30,7 +30,7 @@ const Careers = () => {
                 {/* 1st card section */}
 
 
-                <div className='w-full h-[23%] bg-yellow-200 flex flex-col justify-between items-center '>
+                <div className='w-full md:w-[90%] h-[23%] md:h-[20%] bg-yellow-200 flex flex-col md:flex-row justify-between items-center '>
                     <div className='w-[55%] xs:w-[57%] i5:w-[200px] h-[45%] i5:h-[200px] xs:h-[55%]  rounded-full bg-[#F8F8F8] shadow-md flex bg-cover bg-center items-center justify-center '><img className='w-[90%] h-[90%] hover:scale-110 transition-transform' src='/Images/career-1.png'></img></div>
                     <div className='h-[50%] xs:h-[45%] w-[90%] ml-4 bg-green-300 flex flex-col items-center'>
 
@@ -54,8 +54,8 @@ const Careers = () => {
 
                 {/* 2nd card section */}
 
-                <div className='w-full h-[23%] bg-yellow-200 flex flex-col justify-between items-center '>
-                    <div className='w-[55%] xs:w-[57%] i5:w-[200px] h-[45%] i5:h-[200px] xs:h-[55%] rounded-full bg-[#F8F8F8] shadow-md flex bg-cover bg-center items-center justify-center '><img className='w-[90%] h-[90%] hover:scale-110 transition-transform' src='/Images/career-1.png'></img></div>
+                <div className='w-full h-[23%] bg-yellow-200 flex flex-col md:flex-row justify-between items-center '>
+                    <div className='w-[55%] xs:w-[57%] i5:w-[200px] h-[45%] i5:h-[200px] xs:h-[55%] rounded-full bg-[#F8F8F8] shadow-md flex bg-cover bg-center items-center justify-center '><img className='w-[90%] h-[90%] hover:scale-110 transition-transform' src='/Images/career-2.png'></img></div>
                     <div className='h-[50%] xs:h-[45%] w-[90%] ml-4 bg-green-300 flex flex-col items-center'>
 
                         <button className="tracking-normal flex  w-[90%] h-fit mt-[5%]  bg-pink-300">
@@ -75,8 +75,8 @@ const Careers = () => {
                 </div>
 
 
-                <div className='w-full h-[23%] bg-yellow-200 flex flex-col justify-between items-center '>
-                    <div className='w-[55%] xs:w-[57%]  i5:w-[200px] h-[45%] i5:h-[200px] xs:h-[55%]  rounded-full bg-[#F8F8F8] shadow-md flex bg-cover bg-center items-center justify-center '><img className='w-[90%] h-[90%] hover:scale-110 transition-transform' src='/Images/career-1.png'></img></div>
+                <div className='w-full h-[23%] bg-yellow-200 flex flex-col md:flex-row justify-between items-center '>
+                    <div className='w-[55%] xs:w-[57%]  i5:w-[200px] h-[45%] i5:h-[200px] xs:h-[55%]  rounded-full bg-[#F8F8F8] shadow-md flex bg-cover bg-center items-center justify-center '><img className='w-[90%] h-[90%] hover:scale-110 transition-transform' src='/Images/career-3.png'></img></div>
                     <div className='h-[50%] xs:h-[45%] w-[90%] ml-4 bg-green-300 flex flex-col items-center'>
 
                         <button className="tracking-normal flex  w-[90%] h-fit mt-[5%] bg-pink-300">
@@ -96,8 +96,8 @@ const Careers = () => {
                 </div>
 
 
-                <div className='w-full h-[23%] bg-yellow-200 flex flex-col justify-between items-center '>
-                    <div className='w-[55%]  xs:w-[57%] i5:w-[200px] h-[45%] i5:h-[200px] xs:h-[55%] rounded-full bg-[#F8F8F8] shadow-md flex bg-cover bg-center items-center justify-center '><img className='w-[90%] h-[90%] hover:scale-110 transition-transform' src='/Images/career-1.png'></img></div>
+                <div className='w-full h-[23%] bg-yellow-200 flex flex-col md:flex-row justify-between items-center '>
+                    <div className='w-[55%]  xs:w-[57%] i5:w-[200px] h-[45%] i5:h-[200px] xs:h-[55%] rounded-full bg-[#F8F8F8] shadow-md flex bg-cover bg-center items-center justify-center '><img className='w-[90%] h-[90%] hover:scale-110 transition-transform' src='/Images/career-4.png'></img></div>
                     <div className='h-[50%] xs:h-[45%] w-[90%] ml-4 bg-green-300 flex flex-col items-center'>
 
                         <button className="tracking-normal flex  w-[90%] h-fit mt-[5%] bg-pink-300">
