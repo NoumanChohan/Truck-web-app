@@ -31,7 +31,7 @@ const Careers = () => {
 
 
                 <div className='w-full h-[23%] bg-yellow-200 flex flex-col justify-between items-center '>
-                    <div className='w-[55%] xs:w-[57%] h-[45%] xs:h-[55%]  rounded-full bg-[#F8F8F8] shadow-md flex bg-cover bg-center items-center justify-center '><img className='w-[90%] h-[90%] hover:scale-110 transition-transform' src='/Images/career-1.png'></img></div>
+                    <div className='w-[55%] xs:w-[57%] i5:w-[200px] h-[45%] i5:h-[200px] xs:h-[55%]  rounded-full bg-[#F8F8F8] shadow-md flex bg-cover bg-center items-center justify-center '><img className='w-[90%] h-[90%] hover:scale-110 transition-transform' src='/Images/career-1.png'></img></div>
                     <div className='h-[50%] xs:h-[45%] w-[90%] ml-4 bg-green-300 flex flex-col items-center'>
 
                         <button className="tracking-normal flex  w-[90%] h-fit mt-[5%] bg-pink-300">
@@ -55,7 +55,7 @@ const Careers = () => {
                 {/* 2nd card section */}
 
                 <div className='w-full h-[23%] bg-yellow-200 flex flex-col justify-between items-center '>
-                    <div className='w-[55%] xs:w-[57%] h-[45%] xs:h-[55%] rounded-full bg-[#F8F8F8] shadow-md flex bg-cover bg-center items-center justify-center '><img className='w-[90%] h-[90%] hover:scale-110 transition-transform' src='/Images/career-1.png'></img></div>
+                    <div className='w-[55%] xs:w-[57%] i5:w-[200px] h-[45%] i5:h-[200px] xs:h-[55%] rounded-full bg-[#F8F8F8] shadow-md flex bg-cover bg-center items-center justify-center '><img className='w-[90%] h-[90%] hover:scale-110 transition-transform' src='/Images/career-1.png'></img></div>
                     <div className='h-[50%] xs:h-[45%] w-[90%] ml-4 bg-green-300 flex flex-col items-center'>
 
                         <button className="tracking-normal flex  w-[90%] h-fit mt-[5%]  bg-pink-300">
@@ -76,7 +76,7 @@ const Careers = () => {
 
 
                 <div className='w-full h-[23%] bg-yellow-200 flex flex-col justify-between items-center '>
-                    <div className='w-[55%] xs:w-[57%] h-[45%] xs:h-[55%]  rounded-full bg-[#F8F8F8] shadow-md flex bg-cover bg-center items-center justify-center '><img className='w-[90%] h-[90%] hover:scale-110 transition-transform' src='/Images/career-1.png'></img></div>
+                    <div className='w-[55%] xs:w-[57%]  i5:w-[200px] h-[45%] i5:h-[200px] xs:h-[55%]  rounded-full bg-[#F8F8F8] shadow-md flex bg-cover bg-center items-center justify-center '><img className='w-[90%] h-[90%] hover:scale-110 transition-transform' src='/Images/career-1.png'></img></div>
                     <div className='h-[50%] xs:h-[45%] w-[90%] ml-4 bg-green-300 flex flex-col items-center'>
 
                         <button className="tracking-normal flex  w-[90%] h-fit mt-[5%] bg-pink-300">
@@ -97,7 +97,7 @@ const Careers = () => {
 
 
                 <div className='w-full h-[23%] bg-yellow-200 flex flex-col justify-between items-center '>
-                    <div className='w-[55%]  xs:w-[57%] h-[45%] xs:h-[55%] rounded-full bg-[#F8F8F8] shadow-md flex bg-cover bg-center items-center justify-center '><img className='w-[90%] h-[90%] hover:scale-110 transition-transform' src='/Images/career-1.png'></img></div>
+                    <div className='w-[55%]  xs:w-[57%] i5:w-[200px] h-[45%] i5:h-[200px] xs:h-[55%] rounded-full bg-[#F8F8F8] shadow-md flex bg-cover bg-center items-center justify-center '><img className='w-[90%] h-[90%] hover:scale-110 transition-transform' src='/Images/career-1.png'></img></div>
                     <div className='h-[50%] xs:h-[45%] w-[90%] ml-4 bg-green-300 flex flex-col items-center'>
 
                         <button className="tracking-normal flex  w-[90%] h-fit mt-[5%] bg-pink-300">

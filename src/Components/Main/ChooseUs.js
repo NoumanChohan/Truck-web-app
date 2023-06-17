@@ -8,7 +8,7 @@ const ChooseUs = () => {
 
 
                 <p className="tracking-[.2em] w-fit h-fit   text-base text-[#81899c]">WHY CHOOSE US</p>
-                <span className="text-4xl   font-sans-serif h-fit w-fit  tracking-tight 	text-[#0E1C3C] leading-[1] font-bold	mt-5">Advantages &
+                <span className="text-4xl i5:text-3xl   font-sans-serif h-fit w-fit  tracking-tight 	text-[#0E1C3C] leading-[1] font-bold	mt-5">Advantages &
                     features</span>
 
             </div>

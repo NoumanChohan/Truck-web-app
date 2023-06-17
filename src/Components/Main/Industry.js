@@ -4,11 +4,11 @@ const Industry = () => {
     return (
         <div className="w-full h-[160vh] i5:h-[200vh] flex flex-col items-center justify-between bg-yellow-200  ">
 
-            <div className="flex  flex-col h-[21%] xs:h-[19%] w-[90%] mt-[20%] bg-green-200 ">
+            <div className="flex  flex-col h-[21%] i5:h-[22%] xs:h-[19%] w-[90%] mt-[20%] bg-green-200 ">
 
                 <p className="tracking-[.2em]  w-fit h-fit  text-base text-[#81899c]">INDUSTRY</p>
                 <span className="text-5xl i5:text-3xl w-fit h-fit   tracking-tight	text-[#0E1C3C] leading-[1] font-semibold font-sans-serif	mt-[5%]">Sectors coverage</span>
-                <p className="text-[#81899c] mt-[7%] leading-[1.8] tracking-tight font-[400] text-left">We cover different industry sectors, from food and beverage, chemical, retail, durable goods and more. Check the full list.</p>
+                <p className="text-[#81899c] mt-[7%] leading-[1.8] tracking-tight font-[400] text-left">We cover different industry sectors, from food and beverage, chemical, retail, durable goods and more.</p>
             </div>
 
             <div className="w-full h-[68%] bg-[#0e1c3c] bg-cover bg-center  flex flex-col " style={{ backgroundImage: 'url(http://webdesign-finder.com/tracktruck/wp-content/uploads/2021/06/texture3.png)' }}>
