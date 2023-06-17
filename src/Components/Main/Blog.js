@@ -14,12 +14,12 @@ const Blog = () => {
 
 
     return (
-        <div className="w-full h-[130vh] xs:h-[120vh] bg-[#f8f8f8]    flex flex-col items-center">
+        <div className="w-full h-[130vh] i5:h-[170vh] xs:h-[120vh] bg-[#f8f8f8]    flex flex-col items-center">
             <div className="h-[23%] xs:h-[20%] w-[90%] mt-[20%] bg-pink-400 flex flex-col">
                 {/* <div className="flex flex-col h-fit  w-[30%] "> */}
 
                 <p className="tracking-[.2em] w-fit h-fit  text-base text-[#81899c]">OUR BLOGS</p>
-                <span className="text-4xl  w-fit  h-fit  tracking-tight	text-[#0E1C3C] leading-[1.03] font-semibold 	mt-[5%]">Choose Track-Truck for Success</span>
+                <span className="text-4xl i5:text-3xl w-fit  h-fit  tracking-tight	text-[#0E1C3C] leading-[1.03] font-semibold 	mt-[5%]">Choose Track-Truck for Success</span>
                 {/* </div> */}
 
 

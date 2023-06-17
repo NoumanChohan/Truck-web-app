@@ -2,7 +2,7 @@ import React from 'react'
 
 const Careers = () => {
     return (
-        <div className='w-full h-[300vh] bg-[#d01d1d] xs:h-[250vh] flex flex-col justify-between items-center'>
+        <div className='w-full h-[300vh] i5:h-[370vh] bg-[#d01d1d] xs:h-[250vh] flex flex-col justify-between items-center'>
             <div className=' h-[7%] xs:h-[5%] w-[90%] mt-[20%] bg-green-300 flex flex-col justify-between  '>
 
 
@@ -16,7 +16,7 @@ const Careers = () => {
             {/* 4  Card SECTIONS */}
 
 
-            <div className='w-full h-[90%] bg-pink-400  mt-[10%] flex flex-col justify-around '>
+            <div className='w-full h-[90%] bg-pink-400  mt-[10%] flex flex-col justify-around i5:justify-between '>
 
 
 
@@ -88,7 +88,7 @@ const Careers = () => {
                         </button>
 
                         <p className='text-[#81899c] text-base font-normal tracking-tight mt-[5%] text-center w-fit h-fit leading-[1.8em] '>Optimize supply chain operations through data analysis and process improvement. Work closely with dispatching and routing teams.</p>
-                        <button className='text-xs font-bold leading-[2em] tracking-[0.2em] mt-[5%] h-fit w-fit'>FIND JOBS</button>
+                        <button className='text-xs font-bold leading-[2em] tracking-[0.2em] mt-[5%] i5:mt-auto h-fit w-fit'>FIND JOBS</button>
 
 
 
