@@ -14,8 +14,8 @@ const Blog = () => {
 
 
     return (
-        <div className="w-full h-[170vh]  bg-[#f8f8f8]    flex flex-col items-center">
-            <div className="h-[23%] w-[90%] mt-[10%] bg-pink-400 flex flex-col">
+        <div className="w-full h-[130vh] xs:h-[120vh] bg-[#f8f8f8]    flex flex-col items-center">
+            <div className="h-[23%] xs:h-[20%] w-[90%] mt-[20%] bg-pink-400 flex flex-col">
                 {/* <div className="flex flex-col h-fit  w-[30%] "> */}
 
                 <p className="tracking-[.2em] w-fit h-fit  text-base text-[#81899c]">OUR BLOGS</p>
@@ -51,7 +51,7 @@ const Blog = () => {
             </div>
 
 
-            <div className="flex w-[90%] h-[61%] bg-red-600 mt-[70px]  text-[#81899c]" >
+            <div className="flex w-[90%] h-[61%] xs:h-[58%] bg-red-600 mt-[70px]  text-[#81899c]" >
 
 
 
@@ -68,50 +68,50 @@ const Blog = () => {
                     modules={[Navigation]}
                 >
                     <SwiperSlide className=" "><div className="w-[100%] h-[100%]  bg-yellow-200 flex flex-col">
-                        <div className="w-full bg-[#F8F8F8] h-[50%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/blog-1.png)' }}></div>
-                        <span className='font-bold text-2xl text-black mt-[5%] h-fit w-fit'>Recovery underway, logistics costs pressured</span>
-                        <p className='text-base mt-[5%] h-fit w-fit leading-[1.8] tracking-tight font-[400] '>After some quality time in Florida. I am back to looking at where the economy is headed. After some</p>
-                        <button className='text-base h-fit w-fit mt-[10%]'>Read Now</button>
+                        <div className="w-full bg-[#F8F8F8] h-[50%] xs:h-[60%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/blog-1.png)' }}></div>
+                        <span className='font-bold text-2xl xs:text-xl text-black mt-[5%] h-fit w-fit'>Recovery underway, logistics costs pressured</span>
+                        <p className='text-base  mt-[5%] h-fit w-fit leading-[1.8] tracking-tight font-[400] '>After some quality time in Florida. I am back to looking at where the economy is headed. After some</p>
+                        <button className='text-base h-fit w-fit mt-[10%] xs:mt-[5%]'>Read Now</button>
                     </div>
                     </SwiperSlide>
 
                     <SwiperSlide className=" "><div className="w-[100%] h-[100%]   flex flex-col">
-                        <div className="w-full bg-[#F8F8F8] h-[60%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/blog-2.png)' }}></div>
-                        <span className='font-bold text-2xl text-black mt-[5%] h-fit w-fit'>Hitting the pause button</span>
-                        <p className='text-base mt-[5%] h-fit w-fit leading-[1.8] tracking-tight font-[400] '>After some quality time in Florida. I am back to looking at where the economy is headed. After some</p>
-                        <span className='text-base h-fit w-fit mt-[10%]'>Read Now</span>
+                        <div className="w-full bg-[#F8F8F8] h-[60%] xs:h-[70%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/blog-2.png)' }}></div>
+                        <span className='font-bold text-2xl xs:text-xl text-black mt-[5%] h-fit w-fit'>Hitting the pause button</span>
+                        <p className='text-base  mt-[5%] h-fit w-fit leading-[1.8] tracking-tight font-[400]'>After some quality time in Florida. I am back to looking at where the economy is headed. After some</p>
+                        <span className='text-base h-fit w-fit mt-[10%] xs:mt-[5%]'>Read Now</span>
                     </div>
                     </SwiperSlide>
 
                     <SwiperSlide className=" "><div className="w-[100%] h-[100%]   flex flex-col">
-                        <div className="w-full bg-[#F8F8F8] h-[50%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/blog-3.png)' }}> </div>
-                        <span className='font-bold text-2xl text-black mt-[5%] h-fit w-fit'>Looking back and moving forward</span>
-                        <p className='text-base mt-[5%] h-fit w-fit leading-[1.8] tracking-tight font-[400]  '>After some quality time in Florida. I am back to looking at where the economy is headed. After some</p>
-                        <span className='text-base h-fit w-fit mt-[10%]'>Read Now</span>
+                        <div className="w-full bg-[#F8F8F8] h-[50%] xs:h-[60%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/blog-3.png)' }}> </div>
+                        <span className='font-bold text-2xl xs:text-xl text-black mt-[5%] h-fit w-fit'>Looking back and moving forward</span>
+                        <p className='text-base  mt-[5%] h-fit w-fit leading-[1.8] tracking-tight font-[400] '>After some quality time in Florida. I am back to looking at where the economy is headed. After some</p>
+                        <span className='text-base h-fit w-fit mt-[10%] xs:mt-[5%]'>Read Now</span>
                     </div>
                     </SwiperSlide>
 
                     <SwiperSlide className=" "><div className="w-[100%] h-[100%]   flex flex-col">
-                        <div className="w-full bg-[#F8F8F8] h-[60%]  flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/blog-4.png)' }}></div>
-                        <span className='font-bold text-2xl text-black mt-[5%] h-fit w-fit'>Hitting the pause button</span>
-                        <p className='text-base mt-[5%] h-fit w-fit leading-[1.8] tracking-tight font-[400]  '>After some quality time in Florida. I am back to looking at where the economy is headed. After some</p>
-                        <span className='text-base h-fit w-fit mt-[10%]'>Read Now</span>
+                        <div className="w-full bg-[#F8F8F8] h-[60%] xs:h-[70%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/blog-4.png)' }}></div>
+                        <span className='font-bold text-2xl xs:text-xl text-black mt-[5%] h-fit w-fit'>Hitting the pause button</span>
+                        <p className='text-base  mt-[5%] h-fit w-fit leading-[1.8] tracking-tight font-[400]   '>After some quality time in Florida. I am back to looking at where the economy is headed. After some</p>
+                        <span className='text-base h-fit w-fit mt-[10%] xs:mt-[5%]'>Read Now</span>
                     </div>
                     </SwiperSlide>
 
                     <SwiperSlide className=" "><div className="w-[100%] h-[100%]  flex flex-col">
-                        <div className="w-full bg-[#F8F8F8] h-[50%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/blog-5.png)' }}></div>
-                        <span className='font-bold text-2xl text-black mt-[5%] h-fit w-fit'>Recovery underway, logistics costs pressured</span>
-                        <p className='text-base mt-[5%] h-fit w-fit leading-[1.8] tracking-tight font-[400] '>After some quality time in Florida. I am back to looking at where the economy is headed. After some</p>
-                        <span className='text-base h-fit w-fit mt-[10%]'>Read Now</span>
+                        <div className="w-full bg-[#F8F8F8] h-[50%] xs:h-[60%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/blog-5.png)' }}></div>
+                        <span className='font-bold text-2xl xs:text-xl text-black mt-[5%] h-fit w-fit'>Recovery underway, logistics costs pressured</span>
+                        <p className='text-base  mt-[5%] h-fit w-fit leading-[1.8] tracking-tight font-[400] '>After some quality time in Florida. I am back to looking at where the economy is headed. After some</p>
+                        <span className='text-base h-fit w-fit mt-[10%] xs:mt-[5%]'>Read Now</span>
                     </div>
                     </SwiperSlide>
 
                     <SwiperSlide className=" "><div className="w-[100%] h-[100%]   flex flex-col">
-                        <div className="w-full bg-[#F8F8F8] h-[60%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/blog-6.png)' }}></div>
-                        <span className='font-bold text-2xl text-black mt-[5%] h-fit w-fit'>Hitting the pause button</span>
-                        <p className='text-base mt-[5%] h-fit w-fit leading-[1.8] tracking-tight font-[400] '>After some quality time in Florida. I am back to looking at where the economy is headed. After some</p>
-                        <span className='text-base h-fit w-fit mt-[10%]'>Read Now</span>
+                        <div className="w-full bg-[#F8F8F8] h-[60%] xs:h-[70%] flex flex-col items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/Images/blog-6.png)' }}></div>
+                        <span className='font-bold text-2xl xs:text-xl text-black mt-[5%] h-fit w-fit'>Hitting the pause button</span>
+                        <p className='text-base  mt-[5%] h-fit w-fit leading-[1.8] tracking-tight font-[400]'>After some quality time in Florida. I am back to looking at where the economy is headed. After some</p>
+                        <span className='text-base h-fit w-fit mt-[10%] xs:mt-[5%]'>Read Now</span>
                     </div>
                     </SwiperSlide>
                 </Swiper>

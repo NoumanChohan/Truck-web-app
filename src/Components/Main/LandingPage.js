@@ -16,13 +16,13 @@ const LandingPage = () => {
     return (
 
         <>
-            <div className='w-full h-[210vh] md:h-[190vh]  flex flex-col justify-between items-center lg:hidden '>
+            <div className='w-full h-[210vh] xs:h-[180vh]  md:h-[190vh]  flex flex-col justify-between items-center lg:hidden '>
 
-                <div className='w-full h-[100vh]  bg-cover bg-center  bg-no-repeat flex justify-center'
+                <div className='w-full h-[100vh] xs:h-[45%] bg-cover bg-center  bg-no-repeat flex justify-center'
                     style={{ backgroundImage: "url('Images/track-41.jpg')" }} >
                     <div className=' w-[90%] h-[50%]   mt-[50%] sm:mt-[35%] sm:w-[70%] md:w-[60%] md:mt-[30%] flex flex-col items-center justify-start	'>
                         <p className='text-white tracking-[0.2em] text-center text-base w-fit  h-fit '>PROFESSIONAL TRANSPORTATION SERVICE</p>
-                        <span className=' text-5xl sm:text-6xl md:text-7xl w-fit  h-fit flex flex-col justify-center items-center font-sans-serif font-bold	text-white	mt-[10%] leading-[1] ' 	 >
+                        <span className=' text-5xl sm:text-6xl md:text-7xl w-fit  h-fit flex flex-col justify-center items-center font-sans-serif font-bold	text-white	mt-[10%] leading-[1] xs:leading-normal ' 	 >
                             <p className=' w-fit h-fit'>Team </p>
                             <p className='w-fit h-fit'>trucking &</p>
 
@@ -38,7 +38,7 @@ const LandingPage = () => {
                 </div>
                 {/* FORM (REQUEST A FORM) */}
 
-                <div className='  w-[90%] sm:w-[80%] md:w-[90%] h-[110vh] md:h-[90vh]  	shadow-lg  flex flex-col justify-evenly items-center	'>
+                <div className='  w-[90%] sm:w-[80%]  md:w-[90%] h-[110vh] xs:h-[50%] md:h-[90vh]  	shadow-lg  flex flex-col justify-evenly xs:justify-between items-center	'>
 
                     {/* FORM HEADER */}
 
@@ -49,7 +49,7 @@ const LandingPage = () => {
                     {/* FORM BODY */}
 
                     {/* <div className='    '> */}
-                    <form className="w-[80%] h-[75%] flex flex-col items-center justify-evenly ">
+                    <form className="w-[80%] h-[75%] xs:h-[87%] flex flex-col items-center justify-evenly ">
                         <div className="  border-b border-gray-300  w-full h-[10%] flex items-end ">
                             <input className="appearance-none bg-transparent border-none w-[100%]  h-[60%]   pb-3 leading-tight focus:outline-none" type="text" placeholder="Origin ZIP" aria-label="Full name" />
                         </div>
@@ -82,7 +82,7 @@ const LandingPage = () => {
                             <input className="appearance-none bg-transparent border-none w-[100%]  h-[100%]  pb-3 leading-tight focus:outline-none" type="text" placeholder="Description" aria-label="Full name" />
                         </div>
 
-                        <div className="w-full h-[16%] mt-[3%] bg-[#0E1C3C]  text-white text-xs font-semibold 	flex justify-center items-center hover:scale-95 transform transition-all duration-200">
+                        <div className="w-full h-[16%] xs:h-[12%] mt-[3%]  bg-[#0E1C3C]  text-white text-xs font-semibold 	flex justify-center items-center hover:scale-95 transform transition-all duration-200">
                             <button className="tracking-widest flex  hover:flex-row-reverse  h-fit w-fit  items-center">
                                 <span className='h-fit w-fit'>REQUEST A QUOTE</span>
                                 <span className="ml-2 mr-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-4 h-4 ">

@@ -35,7 +35,7 @@ const Main = () => {
             {/* <RespectedClients /> */}
             {/* <AmazonCap /> */}
             <Careers />
-            {/* <ChooseUs /> */}
+            <ChooseUs />
             {/* <Footer /> */}
 
 
