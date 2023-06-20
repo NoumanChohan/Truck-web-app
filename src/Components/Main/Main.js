@@ -32,8 +32,8 @@ const Main = () => {
             <Testimonials />
             <Industry />
             <Blog />
-            {/* <RespectedClients /> */}
-            {/* <AmazonCap /> */}
+            <RespectedClients />
+            <AmazonCap />
             <Careers />
             <ChooseUs />
             {/* <Footer /> */}

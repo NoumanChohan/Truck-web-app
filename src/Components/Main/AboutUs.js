@@ -2,11 +2,11 @@ import React from 'react'
 
 const AboutUs = () => {
     return (
-        <div className='w-full h-fit xs:h-[70vh] md:h-[60vh]  bg-[#F8F8F8] flex justify-center '>
-            <div className="h-[100%] md:h-[90%] w-[90%] sm:w-[80%] md:w-[90%]  xl:w-[85%]  2xl:w-[78%] lg:mt-[11%] xl:mt-[9%]  mt-[20%] sm:mt-[15%] md:mt-[15%] flex flex-col font-sans-serif ">
+        <div className='w-full h-fit xs:h-[70vh] md:h-[60vh] 2xl:h-[70vh]  bg-[#F8F8F8] flex justify-center '>
+            <div className="h-[100%] md:h-[90%] w-[90%] sm:w-[80%] md:w-[90%] lg:w-[90%]  xl:w-[95%]  2xl:w-[78%] lg:mt-[11%] xl:mt-[5%]  mt-[20%] sm:mt-[15%] md:mt-[15%] flex flex-col font-sans-serif ">
                 <span className="tracking-[.2em] text-base text-[#81899c] xl:mt-[5%] 2xl:mt-[3%]  h-fit w-fit">ABOUT US</span>
-                <span className="text-4xl   w-full sm:w-[80%] md:w-[60%] lg:w-[55%] xl:w-[50%] 2xl:w-[45%] h-fit  tracking-wide 	text-[#0E1C3C] leading-[1.1] xs:leading-[1.2] font-semibold xs:font-bold	mt-[5%]">Optimize Dispatching with Track-Truck</span>
-                <p className="text-[#81899c]  mt-[12%] leading-[1.8] tracking-tight font-[400] text-left">We are your trusted partner in trucking and dispatching, simplifying the process for increased efficiency and profitability. Our experienced team leverages cutting-edge technology and personalized solutions to streamline your operations and enhancing productivity.</p>
+                <span className="text-4xl   w-full sm:w-[80%] md:w-[60%] lg:w-[55%] xl:w-[60%] xl:text-6xl 2xl:w-[45%] h-fit  tracking-wide 	text-[#0E1C3C] leading-[1.1] xs:leading-[1.2] font-semibold xs:font-bold	mt-[5%]">Optimize Dispatching with Track-Truck</span>
+                <p className="text-[#81899c]  mt-[12%] xl:mt-[8%] leading-[1.8] tracking-tight font-[400] text-left">We are your trusted partner in trucking and dispatching, simplifying the process for increased efficiency and profitability. Our experienced team leverages cutting-edge technology and personalized solutions to streamline your operations and enhancing productivity.</p>
 
 
             </div>
