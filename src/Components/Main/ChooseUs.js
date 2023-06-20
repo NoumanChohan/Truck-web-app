@@ -8,8 +8,7 @@ const ChooseUs = () => {
 
 
                 <p className="tracking-[.2em] w-fit h-fit   text-base text-[#81899c]">WHY CHOOSE US</p>
-                <span className="text-4xl i5:text-3xl lg:text-5xl xl:text-6xl xl:w-[50%] 2xl:w-[40%]  font-sans-serif h-fit w-fit  tracking-tight 	text-[#0E1C3C] leading-[1] font-bold	mt-5 lg:mt-auto">Advantages &
-                    features</span>
+                <span className="text-4xl i5:text-3xl lg:text-5xl xl:text-6xl xl:w-[50%] 2xl:w-[40%]  font-sans-serif h-fit w-fit  tracking-tight 	text-[#0E1C3C] leading-[1] font-bold	mt-5 lg:mt-auto">Benefits & Attributes</span>
 
             </div>
 
@@ -80,7 +79,7 @@ const ChooseUs = () => {
                 <div className='flex w-full lg:w-[48%] h-[48%] lg:h-[65%] 2xl:mt-[5%]  justify-between'>
                     <div className='h-full w-[47%] flex flex-col bg-[#F8F8F8] hover:bg-[#FDE344] '>
                         <div className=' w-full h-[55%] flex'>
-                            <div className="h-[100%] w-[50%]  rounded-full flex justify-center items-center ">
+                            <div className="h-[100%] w-[50%] mx-auto rounded-full flex justify-center items-center ">
                                 <img src='/Icons/dashboard.png' className='h-16 w-16 animate-spin-slow'></img>
                             </div>
 
@@ -106,7 +105,7 @@ const ChooseUs = () => {
                 <div className='flex w-full h-[48%] lg:w-[49%] lg:h-[65%] 2xl:mt-[5%] justify-between'>
                     <div className='h-full w-[47%] flex flex-col  bg-[#F8F8F8] hover:bg-[#FDE344]  '>
                         <div className=' w-full h-[55%] flex'>
-                            <div className="h-[100%] w-[50%]  rounded-full flex justify-center items-center ">
+                            <div className="h-[100%] w-[50%] mx-auto rounded-full flex justify-center items-center ">
                                 <img src='/Icons/document.png' className='h-16 w-16 animate-spin-slow'></img>
                             </div>
 

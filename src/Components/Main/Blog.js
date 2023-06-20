@@ -51,7 +51,7 @@ const Blog = () => {
             </div>
 
 
-            <div className="flex w-[90%] h-[61%] md:h-[55%] lg:h-[66%] xs:h-[58%] xl:hidden mt-[70px]  text-[#81899c]" >
+            <div className="flex w-[90%] h-[61%] md:h-[55%] lg:h-[66%] xs:h-[58%]  mt-[70px] xl:w-[95%] xl:h-[66%] xl:mt-[70px] xl:justify-between 2xl:w-[77%] 2xl:h-[55%]  text-[#81899c]" >
 
 
 
@@ -67,7 +67,10 @@ const Blog = () => {
                     onSwiper={swiperInstance => setSwiper(swiperInstance)}
                     modules={[Navigation]}
                     breakpoints={{
-                        768: { slidesPerView: 2 }, 1280: {
+                        768: {
+                            slidesPerView: 2,
+                        },
+                        1280: {
                             slidesPerView: 3,
                         },
                     }}
@@ -132,7 +135,7 @@ const Blog = () => {
             </div>
 
             {/* for xl and above */}
-            <div className="flex w-[95%] h-[66%] 2xl:w-[77%] 2xl:h-[55%] mt-[70px] justify-between text-[#81899c] i5:hidden xxs:hidden xs:hidden sm:hidden md:hidden lg:hidden xl:flex" >
+            {/* <div className="flex w-[95%] h-[66%] 2xl:w-[77%] 2xl:h-[55%] mt-[70px] justify-between text-[#81899c] i5:hidden xxs:hidden xs:hidden sm:hidden md:hidden lg:hidden xl:flex" >
 
 
 
@@ -202,7 +205,7 @@ const Blog = () => {
 
 
 
-            </div>
+            </div> */}
 
         </div>
     )

@@ -84,7 +84,7 @@ const Elevate = () => {
 
             {/* bg image page */}
             <div div className="w-full  h-[60%] sm:h-[80%] lg:h-[70%] 2xl:h-[75%] bg-no-repeat bg-center bg-cover flex items-center 	 "
-                style={{ backgroundImage: "url('Images/elevate-bg.png')" }}>
+                style={{ backgroundImage: "url('Images/elevate-right.png')" }}>
 
                 <div className='w-[90%] h-fit flex justify-center'>
                     <span className="text-white text-2xl lg:text-4xl font-medium w-[90%]  md:w-[70%] xl:w-[50%] xl:mr-[10%] 2xl:mr-[25%] xl:mt-[10%]  font-sans-serif h-fit  mt-[50%] md:mt-[30%]  lg:mt-[25%] 2xl:mt-[10%] leading-[1.2] tracking-tight">Elevate your dry van shipping with our logistics experts, on-demand capacity and 24/7 tracking.</span>

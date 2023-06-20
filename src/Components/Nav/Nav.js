@@ -54,9 +54,9 @@ const Nav = () => {
 
 
 
-            <div className="w-fit h-full   ml-[5%] flex items-center text-base  md:text-2xl md:w-[25%] lg:text-lg lg:w-fit xl:w-fit ">
+            <Link href={"/"} className="w-fit h-full   ml-[5%] flex items-center text-base  md:text-2xl md:w-[25%] lg:text-lg lg:w-fit xl:w-fit ">
                 <p className="w-fit h-fit    text-yellow-300 font-bold  md:w-fit  ">TRACK/</p><p className='text-white w-[50%] h-fit md:w-fit '>/TRUCK</p>
-            </div>
+            </Link>
 
 
 
@@ -67,7 +67,7 @@ const Nav = () => {
 
                     <li className="w-[17%]">
                         <button className="w-full flex  justify-center relative" onClick={toggleDropdown} >
-                            <p className="h-fit w-fit tracking-widest">PAGES</p>
+                            <p className="h-fit w-fit tracking-widest">SERVICES</p>
                             <img src="/Icons/dropdown.png" className="h-[15px] w-[20px]" />
                             {showDropdown && (
 
@@ -86,7 +86,7 @@ const Nav = () => {
                             className="w-full flex  justify-center relative"
                         // onMouseEnter={toggleServicesDropdown} onMouseLeave={toggleServicesDropdown}
                         >
-                            <p className="h-fit w-fit tracking-widest">SERVICES</p>
+                            <p className="h-fit w-fit tracking-widest">PAGES</p>
                             <img src="/Icons/dropdown.png" className="h-[15px] w-[20px]" />
                             {/* {showServicesDropdown && (
 
