@@ -110,7 +110,7 @@ const Footer = () => {
 
 
 
-
+{/* hhhh */}
 
                 <div className='w-full h-[70%] bg-[#0e1c3c] bg-cover bg-center flex' style={{ backgroundImage: "url(http://webdesign-finder.com/tracktruck/wp-content/uploads/2021/06/texture3.png)" }}>
 
