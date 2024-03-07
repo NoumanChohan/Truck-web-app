@@ -69,7 +69,7 @@ const Nav = () => {
                         <button className="w-full flex  justify-center relative" onClick={toggleDropdown} >
                             <p className="h-fit w-fit tracking-widest">SERVICES</p>
                             <img src="/Icons/dropdown.png" className="h-[15px] w-[20px]" />
-                            {showDropdown && (
+                            {/* {showDropdown && (
 
                                 <div className="absolute bg-white text-black w-[150px] h-fit  p-2 mt-[50px] " onMouseEnter={toggleDropdownLeave} onMouseLeave={toggleDropdown}>
                                     <li>About</li>
@@ -77,7 +77,7 @@ const Nav = () => {
                                     <li>Portfolio</li>
                                 </div>
 
-                            )}
+                            )} */}
                         </button>
                     </li>
 
@@ -103,9 +103,9 @@ const Nav = () => {
                     <li className="w-[17%]">BLOG</li>
                     <Link href="/contact"><li className="w-[17%]"> CONTACTS</li></Link>
                 </ul>
-                <button className="w-[20%]  outline text-white outline-[#FDE344] outline-[1px] h-[40%] text-xs ">
+                {/* <button className="w-[20%]  outline text-white outline-[#FDE344] outline-[1px] h-[40%] text-xs ">
                     QUOTE ON LANE
-                </button>
+                </button> */}
             </div>
 
 
